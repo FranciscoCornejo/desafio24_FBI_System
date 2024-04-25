@@ -1,0 +1,17 @@
+{
+  "name": "desafio24_fbi_system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "server": "node --watch index.js"
+  },
+  "author": "Francisco Cornejo",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
